@@ -119,3 +119,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.nimble/bin:$HOME/.rvm/bin:$HOME/.rvm/scripts/rvm:$HOME/.local/bin/lvim"
 alias lvim=/Users/artur.gomes/.local/bin/lvim
+
+export PATH="$HOME/.poetry/bin:$PATH"
