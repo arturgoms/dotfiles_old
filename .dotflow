@@ -1,4 +1,7 @@
 $HOME/.config/dotflow/.zshrc:$HOME/.zshrc
 $HOME/.config/dotflow/lvim:$HOME/.config/lvim
 $HOME/.config/dotflow/.p10k.zsh:$HOME/.p10k.zsh
+<<<<<<< HEAD
 $HOME/.config/dotflow/.doom.d:$HOME/.doom.d
+=======
+>>>>>>> b3cd683 (Add p10k dotfile)

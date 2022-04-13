@@ -703,6 +703,12 @@ Emacs provides a 'zap-to-char' command that kills from the current point to a ch
 
 (add-hook 'nim-mode-hook 'my--init-nim-mode)
 #+END_SRC
+* FIXING HOME AND END BEHAVIOR
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "<home>") 'move-beginning-of-line)
+
+(global-set-key (kbd "<end>") 'move-end-of-line)
+#+END_SRC
 * TIPS
 ** Useful keybinding
 Some useful keybings

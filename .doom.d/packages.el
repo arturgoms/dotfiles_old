@@ -105,6 +105,7 @@
 (package! clippy)
 (package! minimap)
 (package! nim-mode)
+(package! poetry)
 ;; -*- no-byte-compile: t; -*-
 ;;; os/tty/packages.el
 

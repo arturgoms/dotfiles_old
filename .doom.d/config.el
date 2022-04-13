@@ -339,3 +339,7 @@ List of keybindings (SPC h b b)")
 )
 
 (add-hook 'nim-mode-hook 'my--init-nim-mode)
+
+(global-set-key (kbd "<home>") 'move-beginning-of-line)
+
+(global-set-key (kbd "<end>") 'move-end-of-line)
