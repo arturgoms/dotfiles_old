@@ -734,3 +734,11 @@ Some useful keybings
 | selection           | vf-<letter> then ; or ,        | go to next appereace of that letter |
 | selection  2letters | vs-<2letter> then ; or ,       | go to next appereace of that letter |
 | goto shorcut        | g-s-SPC-<word> then the letter | go to that word                     |
+** Magit
+Some useful tips for magit
+| Command | KEYBINDING | DESCRIPTION       |
+|---------+------------+-------------------|
+| Magit   | SPC g g    | open magit status |
+| Stage   | s          | stage file        |
+| UnStage | u          | unstage file      |
+|         |            |                   |

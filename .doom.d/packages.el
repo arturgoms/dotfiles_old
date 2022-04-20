@@ -106,6 +106,8 @@
 (package! minimap)
 (package! nim-mode)
 (package! poetry)
+(package! kubernetes)
+(package! kubernetes-evil)
 ;; -*- no-byte-compile: t; -*-
 ;;; os/tty/packages.el
 

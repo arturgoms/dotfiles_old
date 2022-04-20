@@ -120,4 +120,5 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 export PATH="$PATH:$HOME/.nimble/bin:$HOME/.rvm/bin:$HOME/.rvm/scripts/rvm:$HOME/.local/bin/lvim"
 alias lvim=/Users/artur.gomes/.local/bin/lvim
 alias emacs=emacsclient -c -a 'emacs' &
+alias poetry_enable=source $(poetry env info --path)/bin/activate
 export PATH="$HOME/.poetry/bin:$PATH"
