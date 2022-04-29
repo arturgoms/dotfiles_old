@@ -1,7 +1,9 @@
 $HOME/.config/dotflow/.zshrc:$HOME/.zshrc
 $HOME/.config/dotflow/lvim:$HOME/.config/lvim
 $HOME/.config/dotflow/.p10k.zsh:$HOME/.p10k.zsh
-<<<<<<< HEAD
 $HOME/.config/dotflow/.doom.d:$HOME/.doom.d
-=======
->>>>>>> b3cd683 (Add p10k dotfile)
+$HOME/.config/dotflow/.tmux:$HOME/.tmux
+$HOME/.config/dotflow/.tmux.conf:$HOME/.tmux.conf
+$HOME/.config/dotflow/.oh-my-zsh:$HOME/.oh-my-zsh
+$HOME/.config/dotflow/.tmux-cht-command:$HOME/.tmux-cht-command
+$HOME/.config/dotflow/.tmux-cht-languages:$HOME/.tmux-cht-languages

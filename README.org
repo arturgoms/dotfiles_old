@@ -1,0 +1,52 @@
+#+TITLE: Dotfiles
+#+PROPERTY: header-args :tangle config.el
+
+* Dotfiles controlled by [Dotflow](https://github.com/arturgoms/dotflow)
+* Useful Keybindings
+** Emacs
+Some useful keybings
+
+| Command             | KEYBINDING                     | DESCRIPTION                         |
+|---------------------+--------------------------------+-------------------------------------|
+| dired               | SPC .                          | open file                           |
+| recent-files        | SPC f r                        | open the recent files               |
+| zoom-in-font        | C-x C-+                        | increase the font size              |
+| zoom-out-font       | C-x C--                        | decrease the font size              |
+| comment-line        | g-c                            | comment line inside file            |
+| change-tabs         | g-<arrow>                      | change the tabs, left or right      |
+| toggle-terminal     | SPC-o-t                        | open v-term                         |
+| switch-windows      | SPC-w-<h-l-j-k>                | change the windows left or right    |
+| move-windows        | SPC-w-<H-L-J-K>                | move windows to a different place   |
+| switch-buffers      | SPC-b-b                        | change the buffer                   |
+| kill-buffers        | SPC-b-k                        | kill the buffer                     |
+| close-buffers       | SPC-b-z                        | close the buffer                    |
+| new-buffers         | SPC-b-N                        | new buffer                          |
+| save-buffers        | SPC-b-s                        | save buffer                         |
+| navigation          | f-<letter>  then ; or ,        | go to next appereace of that letter |
+| navigation 2letters | s-<2letter> then ; or ,        | go to next appereace of that letter |
+| selection           | vf-<letter> then ; or ,        | go to next appereace of that letter |
+| selection  2letters | vs-<2letter> then ; or ,       | go to next appereace of that letter |
+| goto shorcut        | g-s-SPC-<word> then the letter | go to that word                     |
+** Magit
+Some useful tips for magit
+| Command | KEYBINDING | DESCRIPTION       |
+|---------+------------+-------------------|
+| Magit   | SPC g g    | open magit status |
+| Stage   | s          | stage file        |
+| UnStage | u          | unstage file      |
+|         |            |                   |
+
+** Tmux
+
+| Command       | KEYBINDING            | DESCRIPTION         |
+|---------------+-----------------------+---------------------|
+| Split v       | <C-a> + v             | split vertically    |
+| Split h       | <C-a> + h             | split horizontal    |
+| change panels | <oprtion> + arrow     | move between panels |
+| create window | <C-a> + t             | create new window   |
+| change window | <shift> + arrow       | move between window |
+| rename window | <C-a> + ,             | rename window       |
+| detach        | <C-a> + d             | detach from session |
+| list          | tmux ls               | list sessions       |
+| attach        | tmux attach -t NUMBER | attach sessions     |
+| new session   | tmux new -s NAME      | new session         |

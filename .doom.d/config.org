@@ -709,10 +709,14 @@ Emacs provides a 'zap-to-char' command that kills from the current point to a ch
 
 (global-set-key (kbd "<end>") 'move-end-of-line)
 #+END_SRC
+
+* RELATIVE NUMBERS
+#+BEGIN_SRC emacs-lisp
+(setq display-line-numbers-type 'relative)
+#+END_SRC
 * TIPS
 ** Useful keybinding
 Some useful keybings
-
 | Command             | KEYBINDING                     | DESCRIPTION                         |
 |---------------------+--------------------------------+-------------------------------------|
 | dired               | SPC .                          | open file                           |
@@ -734,6 +738,26 @@ Some useful keybings
 | selection           | vf-<letter> then ; or ,        | go to next appereace of that letter |
 | selection  2letters | vs-<2letter> then ; or ,       | go to next appereace of that letter |
 | goto shorcut        | g-s-SPC-<word> then the letter | go to that word                     |
+** Moviment keys
+| Command         | KEYBINDING | DESCRIPTION                                          |
+|-----------------+------------+------------------------------------------------------|
+| next-word       | w          | next word                                            |
+| previous-word   | b          | previous word                                        |
+| delete-word     | cmd - b    | delete word                                          |
+| go to beginning | shift+i    | got to he beginning of line and enter in insert mode |
+| go to end       | shift+a    | got to he end of line and enter in insert mode       |
+| find            | *          | with the cursor in the word, find next ocorrence     |
+| find            | #          | with the cursor in the word, find precious ocorrence |
+
+** Inline Moviment
+| Command                                  | KEYBINDING   | DESCRIPTION                                        |
+|------------------------------------------+--------------+----------------------------------------------------|
+| find letter                              | f + char     | find next char in line, to avance: ; to go back: , |
+| delete word                              | c + w        | remove word and go to insermode                    |
+| delete up to char                        | d + t + char | delete up to the char                              |
+| delete up to char and insert             | c + t + char | delete up to the char and go insert mode           |
+| delete the rest of line                  | shift + d    | delete the rest of line                            |
+| delete the rest of line and insert       | shift + c    | delete the rest of line and then go insert         |
 ** Magit
 Some useful tips for magit
 | Command | KEYBINDING | DESCRIPTION       |

@@ -343,3 +343,5 @@ List of keybindings (SPC h b b)")
 (global-set-key (kbd "<home>") 'move-beginning-of-line)
 
 (global-set-key (kbd "<end>") 'move-end-of-line)
+
+(setq display-line-numbers-type 'relative)
