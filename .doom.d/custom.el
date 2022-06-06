@@ -8,7 +8,14 @@
      (dired-mode-hook)
      (dired-mode-hook)
      (before-save-hook)))
- '(warning-suppress-types '((dired-mode-hook) (dired-mode-hook) (before-save-hook))))
+ '(warning-suppress-types
+   '((doom-load-theme-hook)
+     (post-command-hook)
+     (post-command-hook)
+     (post-command-hook)
+     (dired-mode-hook)
+     (dired-mode-hook)
+     (before-save-hook))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

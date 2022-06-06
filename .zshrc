@@ -35,6 +35,12 @@ source ~/powerlevel10k/powerlevel10k.zsh-theme
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# Autodesk
+export ADSK_USER=t_gomear
+export VAULT_ADDR=https://civ1.dv.adskengineer.net:8200
+
+. ~/projects/operations-center/bin/shell_tools.sh
+
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.nimble/bin:$HOME/.rvm/bin:$HOME/.rvm/scripts/rvm:$HOME/.local/bin/lvim"

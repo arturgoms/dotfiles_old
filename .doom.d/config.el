@@ -345,3 +345,11 @@ List of keybindings (SPC h b b)")
 (global-set-key (kbd "<end>") 'move-end-of-line)
 
 (setq display-line-numbers-type 'relative)
+
+(use-package! evil-colemak-basics
+  :after evil
+  :init
+  (setq evil-colemak-basics-layout-mod 'mod-dh)
+  :config
+  (global-evil-colemak-basics-mode) ; Enable colemak rebinds
+  )

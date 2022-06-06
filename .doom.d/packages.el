@@ -108,6 +108,8 @@
 (package! poetry)
 (package! kubernetes)
 (package! kubernetes-evil)
+(package! evil-colemak-basics)
+
 ;; -*- no-byte-compile: t; -*-
 ;;; os/tty/packages.el
 
