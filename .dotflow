@@ -7,3 +7,4 @@ $HOME/.config/dotflow/.tmux.conf:$HOME/.tmux.conf
 $HOME/.config/dotflow/.oh-my-zsh:$HOME/.oh-my-zsh
 $HOME/.config/dotflow/.tmux-cht-command:$HOME/.tmux-cht-command
 $HOME/.config/dotflow/.tmux-cht-languages:$HOME/.tmux-cht-languages
+$HOME/.config/dotflow/nvim:$HOME/.config/nvim
