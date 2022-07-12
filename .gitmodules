@@ -3,5 +3,5 @@
 	url = https://github.com/ohmyzsh/ohmyzsh.git
 [submodule "nvim"]
 	path = nvim
-	url = https://github.com/AstroNvim/AstroNvim.git
-	branch = neovim-0.8
+	url = https://github.com/arturgoms/nvim.git
+	branch = master
